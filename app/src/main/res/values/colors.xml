@@ -1,0 +1,26 @@
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#deb887</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#9f6060</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#fafad2</color>
+
+    <!-- Background color for the numbers category -->
+
+    <color name="category_numbers">#79609f</color>
+    <color name="category_grammar">#cc6666</color>
+    <!-- Background color for the days category -->
+    <color name="category_colors">#329a32</color>
+
+    <!-- Background color for the family category -->
+    <color name="category_months">#f08080</color>
+
+    <!-- Background color for the phrases category -->
+    <color name="category_phrases">#66cc99</color>
+
+    <color name="category_family">#cd5c5c</color>
+    <color name="category_vocabulary">#668099</color>
+</resources>

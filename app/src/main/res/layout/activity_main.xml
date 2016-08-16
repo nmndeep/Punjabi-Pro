@@ -1,0 +1,63 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.diction.MainActivity">
+
+    <TextView
+        android:id="@+id/grammar"
+        style="@style/CategoryStyle"
+        android:background="@color/category_grammar"
+        android:text="@string/category_grammar"
+        android:onClick="openGrammar"/>
+
+    <TextView
+        android:id="@+id/numbers"
+        style="@style/CategoryStyle"
+        android:background="@color/category_numbers"
+        android:text="@string/category_numbers"
+        android:onClick="openNumbers"/>
+
+
+    <TextView
+        android:id="@+id/colors"
+        style="@style/CategoryStyle"
+        android:background="@color/category_colors"
+        android:text="@string/category_colors"
+        android:onClick="openColors"/>
+    <TextView
+        android:id="@+id/phrases"
+        style="@style/CategoryStyle"
+        android:background="@color/category_phrases"
+        android:text="@string/category_phrases"
+        android:onClick="openPhrases"/>
+    <TextView
+        android:id="@+id/months"
+        style="@style/CategoryStyle"
+        android:background="@color/category_months"
+        android:text="@string/category_months"
+        android:onClick="openMonths"/>
+
+    <TextView
+        android:id="@+id/vocabulary"
+        style="@style/CategoryStyle"
+        android:background="@color/category_vocabulary"
+        android:text="@string/category_vocabulary"
+        android:onClick="openVocabulary"/>
+    <TextView
+        android:id="@+id/family"
+        style="@style/CategoryStyle"
+        android:background="@color/category_family"
+        android:text="@string/category_family"
+        android:onClick="openFamily"/>
+</LinearLayout>
+
+</ScrollView>
